@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.main_content_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Itim', cursive;
+    background-color: #ffd7fd;
+}
+
+.main_content {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    width: 800px;
+    height: 550px;
+}
+
+.tiktok_img {
+    width: 400px;
+    height: 550px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.signup_div {
+    background-color: hsl(303, 100%, 42%, .5);
+    /* opacity: 50%; */
+    width: 400px;
+    height: 550px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.signup_txt {
+    color: #000;
+    opacity: 80%;
+    margin-bottom: 33px;
+}
+
+.input_field {
+    background-color: #fff;
+    border: 0;
+    width: 245px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding-left: 20px;
+    font-size: .99em;
+}
+
+.input_field:first-child {
+    margin-bottom: 12px;
+}
+
+.signup_btn {
+    width: 120px;
+    height: 45px;
+    background-color: #D700CE;
+    color: #fff;
+    border-radius: 7px;
+    border: 0;
+    font-size: .99em;
+    font-weight: bold;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+.login_option_txt {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.login_option_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.input_field::placeholder {
+    color: hsl(0, 0%, 0%, .3);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.input_field:-ms-input-placeholder {
+    color: hsl(0, 0%, 0%, .3);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.input_field::-ms-input-placeholder {
+    color: hsl(0, 0%, 0%, .3);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
