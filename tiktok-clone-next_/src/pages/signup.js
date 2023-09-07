@@ -1,10 +1,14 @@
 import { Beau_Rivage } from "next/font/google"
 import styles from "../styles/signupstyles.module.css"
 import Image from "next/image"
+import Head from "next/head"
 
 export default function () {
     return (
         <>
+            <Head>
+                <title>SignUp</title>
+            </Head>
             <div className={styles.main_content_div}>
                 <div className={styles.main_content}>
                     <div className={styles.tiktok_img_div}>
